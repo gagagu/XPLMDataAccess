@@ -1,0 +1,41 @@
+﻿Der Buildvorgang wurde am 22.02.2013 11:42:27 gestartet.
+     1>Projekt "D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\DotNetDataRefConnector\DotNetDataRefConnector.vcxproj" auf Knoten "2", rebuild Ziel(e).
+     1>_PrepareForClean:
+         Die Datei "x64\Debug\DotNetDataRefConnector.lastbuildstate" wird gelöscht.
+       PrepareForBuild:
+         Das Verzeichnis "D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\" wird erstellt.
+       InitializeBuildStatus:
+         "x64\Debug\DotNetDataRefConnector.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\privat\Programmierung\XPlane\ansi_C\XPSDK212\SDK\CHeaders\XPLM /ID:\privat\Programmierung\XPlane\ansi_C\XPSDK212\SDK\CHeaders\Wrappers /ID:\privat\Programmierung\XPlane\ansi_C\XPSDK212\SDK\CHeaders\Widgets /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _USRDLL /D SIMDATA_EXPORTS /D IBM=1 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt DotNetDataRefConnector.c
+         DotNetDataRefConnector.c
+     1>DotNetDataRefConnector.c(30): warning C4047: 'Initialisierung': Anzahl der Dereferenzierungen bei 'DWORD' und 'void *' unterschiedlich
+     1>DotNetDataRefConnector.c(331): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): Siehe Deklaration von 'strcpy'
+     1>DotNetDataRefConnector.c(332): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): Siehe Deklaration von 'strcpy'
+     1>DotNetDataRefConnector.c(333): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105): Siehe Deklaration von 'strcpy'
+     1>d:\privat\programmierung\xplane\ansi_c\dotnetdatarefconnector\dotnetdatarefconnector\dotnetdatarefconnector.c(338): warning C4716: 'XPluginStart': Muss einen Wert zurückgeben
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\privat\Programmierung\XPlane\ansi_C\XPSDK212\SDK\CHeaders\XPLM /ID:\privat\Programmierung\XPlane\ansi_C\XPSDK212\SDK\CHeaders\Wrappers /ID:\privat\Programmierung\XPlane\ansi_C\XPSDK212\SDK\CHeaders\Widgets /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _USRDLL /D SIMDATA_EXPORTS /D IBM=1 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt DotNetDataRefConnectorWin.cpp
+         DotNetDataRefConnectorWin.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.xpl" /NOLOGO D:\privat\Programmierung\XPlane\ansi_C\XPSDK212\SDK\Libraries\Win\XPLM_64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\win.xpl.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.lib" /MACHINE:X64 /DLL x64\Debug\DotNetDataRefConnector.obj
+         x64\Debug\DotNetDataRefConnectorWin.obj
+            Bibliothek "D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.lib" und Objekt "D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.exp" werden erstellt.
+         DotNetDataRefConnector.vcxproj -> D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.xpl
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.xpl;#2" /manifest x64\Debug\win.xpl.intermediate.manifest
+       PostBuildEvent:
+         xcopy D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.xpl "D:\privat\X-Plane 10\Resources\plugins\DotNetDataRefConnector\64" /Y
+         :VCEnd
+         D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\x64\Debug\win.xpl
+         1 Datei(en) kopiert
+       FinalizeBuildStatus:
+         Die Datei "x64\Debug\DotNetDataRefConnector.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "x64\Debug\DotNetDataRefConnector.lastbuildstate".
+     1>Die Erstellung des Projekts "D:\privat\Programmierung\XPlane\ansi_C\DotNetDataRefConnector\DotNetDataRefConnector\DotNetDataRefConnector.vcxproj" ist abgeschlossen, rebuild Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:01.48
